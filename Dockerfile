@@ -2,7 +2,7 @@
 FROM jenkins
 
 # Set desired Android Linux SDK version
-ENV ANDROID_SDK_VERSION 24.4.1
+ENV ANDROID_SDK_VERSION 26.0.2
 
 ENV ANDROID_SDK_ZIP android-sdk_r$ANDROID_SDK_VERSION-linux.tgz
 ENV ANDROID_SDK_ZIP_URL https://dl.google.com/android/$ANDROID_SDK_ZIP
