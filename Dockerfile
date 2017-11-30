@@ -20,7 +20,7 @@ USER root
 # Init dependencies for the setup process
 RUN dpkg --add-architecture i386
 RUN apt-get update && \
-	apt-get install software-properties-common python-software-properties -f unzip -y
+	apt-get install software-properties-common unzip -y
 
 # Install gradle
 ADD $GRADLE_ZIP_URL /opt/
